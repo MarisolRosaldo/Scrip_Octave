@@ -1,0 +1,55 @@
+% Octave Script
+% Title                   : Modelo matemático de temperatura
+% Description             : Scrip para el modelo matemático de temperatura
+% Author                  : Marisol Rosaldo Jiménez
+% Date                    : 2021-04-14
+% Version                 : 1
+% Usage                   : 
+% Notes                   : Requiere aplicación octave, y utilizar línea de comandos
+
+%Considere una gráfica de la temperatura en grados Centígrados, C, en función de la temperatura en grados Fahrenheir, F, y Supongase que está gráfica es una línea recta. /n
+%Se conoce que 100°C y 212°F corresponden a la temperatura a la cual hace ebullición el agua. Similarmente, 0°C y 32°F corresponden al punto de congelación del agua.
+
+% a) ¿A qué temperatura en grados fahrenheit corresponden 20°C?
+
+     °F= (20°C * 1.800) + 32 = 68°F
+
+% b) ¿A qué temperatura en grados centígrados corresponden 100°F?
+
+    °C=  100°F - 32
+        ------------ = 37.77°C
+           1.800
+ 
+% c) ¿A qué temperatura tiene el mismo valor en grados fahrenheit y en centígrados?
+ 
+  %     TF= TC= X
+  %     TC - 0 / 100 = TF - 32 / 180
+  %     X - 0 / 5= X - 32 / 9
+  %    9X = 5X - 32 / 9
+  %     9X = 5X - ( 5 * 32 )
+  %     9X = 5X - 160
+  %     9X - 5X = -160
+  %     4X = -160
+  %     X = -40
+  %     -40°C = -40°F
+         
+   %  Temperatura                          Fahrenheit
+    220   |___________|___________________.__________ 
+    200   |           |                   |
+    180   |           |                   |
+    160   |           |                   |
+    140   |           |                   |
+    120   |           |                   |Celsius
+    100   |___________|___________________.__________
+     80   |           |                   |
+     60   |           | Fahrenheit        |
+     40   |___________.___________________|__________ 
+     20   |           |   Celsius         | 
+      0   |___________.___________________|_____________
+    -20   |          Congelación         Ebullición
+  (-40)   |            
+                      
+             
+       
+       
+       
